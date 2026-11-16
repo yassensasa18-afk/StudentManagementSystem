@@ -1,0 +1,24 @@
+1
+S001
+Galaleldin
+Information Technology
+2
+L001
+Dr Ahmed
+Information Technology
+3
+BIT1123
+Object Oriented Programming
+L001
+4
+5
+6
+S001
+BIT1123
+7
+S001
+6
+S001
+BIT1123
+9
+0

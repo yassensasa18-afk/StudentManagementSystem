@@ -1,0 +1,4 @@
+Compiled successfully with OpenJDK 21 using jdk.compiler.
+All 5 demonstration runs and 6 validation scenarios passed.
+Validated: creation; polymorphic display; course display; registration; duplicate registration; duplicate ID; missing records; blank ID; empty lists; invalid lecturer; duplicate course.
+Screenshots were taken in the Windows Command Prompt using OpenJDK 21. No GUI is implemented.

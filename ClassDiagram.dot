@@ -1,0 +1,14 @@
+digraph UML {
+graph [rankdir=TB, bgcolor="white", nodesep=0.45, ranksep=0.7];
+node [shape=record,fontname="Arial",fontsize=11];
+Person [label="{Person (abstract)|- id : String\l- name : String\l|+ Person(id, name)\l+ getId() : String\l+ setId(id) : void\l+ getName() : String\l+ setName(name) : void\l+ getDetails() : String (abstract)\l}"];
+Student [label="{Student|- programme : String\l- courses : List of Course\l|+ Student(id, name, programme)\l+ getProgramme() : String\l+ setProgramme(programme) : void\l+ getCourses() : List of Course\l+ registerCourse(course) : boolean\l+ getDetails() : String\l}"];
+Lecturer [label="{Lecturer|- department : String\l|+ Lecturer(id, name, department)\l+ getDepartment() : String\l+ setDepartment(department) : void\l+ getDetails() : String\l}"];
+Course [label="{Course|- code : String\l- title : String\l- lecturer : Lecturer\l|+ Course(code, title)\l+ getCode() : String\l+ setCode(code) : void\l+ getTitle() : String\l+ setTitle(title) : void\l+ getLecturer() : Lecturer\l+ setLecturer(lecturer) : void\l+ getDetails() : String\l}"];
+Main [label="{Main|- input : Scanner (static)\l- students : List of Student (static)\l- lecturers : List of Lecturer (static)\l- courses : List of Course (static)\l|+ main(args) : void (static)\l- read(prompt) : String (static)\l- student(id) : Student (static)\l- lecturer(id) : Lecturer (static)\l- course(code) : Course (static)\l}"];
+Student -> Person [arrowhead=empty]; Lecturer -> Person [arrowhead=empty];
+Student -> Course [arrowhead=vee,label="registers",taillabel="0..*",headlabel="0..*"];
+Course -> Lecturer [arrowhead=vee,label="taught by",taillabel="0..*",headlabel="0..1"];
+{rank=same; Student; Lecturer;}
+Main -> Student [style=dashed]; Main -> Lecturer [style=dashed]; Main -> Course [style=dashed];
+}

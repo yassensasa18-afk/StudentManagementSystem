@@ -1,0 +1,112 @@
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Student ID: Name: Programme: Student added successfully.
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Lecturer ID: Name: Department: Lecturer added successfully.
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Course code: Course title: Lecturer ID (blank for none): Course added successfully.
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Student | S001 | Galaleldin | Information Technology
+Lecturer | L001 | Dr Ahmed | Information Technology
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: BIT1123 | Object Oriented Programming | Lecturer: Dr Ahmed
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Student ID: Course code: Registration successful.
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Student ID: Student | S001 | Galaleldin | Information Technology
+BIT1123 | Object Oriented Programming | Lecturer: Dr Ahmed
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Student ID: Course code: Student already registered.
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Invalid option. Choose 0 to 7.
+
+=== STUDENT MANAGEMENT SYSTEM ===
+1. Add student
+2. Add lecturer
+3. Add course
+4. Display all people
+5. Display courses
+6. Register student in course
+7. Display student registrations
+0. Exit
+Choose: Goodbye.
